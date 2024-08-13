@@ -4,7 +4,7 @@ import { View, Text, StatusBar } from 'react-native';
 import styles from './styles';
 import { useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
-type Props = NativeStackScreenProps<RootStackParamList, 'Details'>;
+/*type Props = NativeStackScreenProps<RootStackParamList, 'Details'>;
 export default ({ route }: Props) => {
   const navigation = useNavigation();
   const { content, title } = route.params;
@@ -17,4 +17,4 @@ export default ({ route }: Props) => {
       <Text>{content}</Text>
     </View>
   );
-};
+};*/
